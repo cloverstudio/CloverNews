@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black_70percent">#AE000000</color>
+    <color name="black_50percent">#80000000</color>
+    <color name="clover_green">#74bb4c</color>
+    <color name="clover_blue">#189e9e</color>
+    <color name="gray_background">#d8d8d8</color>
+</resources>

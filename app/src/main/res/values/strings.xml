@@ -1,0 +1,270 @@
+<resources>
+    <string name="app_name">Clover news</string>
+
+    <!-- trending headlines activity -->
+    <string name="clover_logo_desc">Clover logo</string>
+    <string name="filter_image_desc">filter image</string>
+    <string name="headline_image_desc">headline image</string>
+    <string name="search_placeholder">Search</string>
+    <string name="trending_headlines_no_tags_selected">Tap on filter to select country and/or category</string>
+    <string name="trending_headlines_empty_view">There are no headlines for this search.\nChange search text or adjust\ncountry and category.</string>
+    <string name="trending_headlines_error">Something went wrong :(</string>
+    <string name="try_again">Try again</string>
+
+    <!-- filter search activity -->
+    <string name="filter_search_title">Customize Search</string>
+    <string-array name="filter_search_tab_layout_headers">
+        <item>@string/first_filter_search_tab</item>
+        <item>@string/second_filter_search_tab</item>
+    </string-array>
+    <string name="first_filter_search_tab">Countries</string>
+    <string name="second_filter_search_tab">Categories</string>
+    <string name="filter_search_no_tags_selected">Select country and/or category below</string>
+
+    <!-- countries -->
+    <string-array name="country_codes">
+        <item>@string/country_code_0</item>
+        <item>@string/country_code_1</item>
+        <item>@string/country_code_2</item>
+        <item>@string/country_code_3</item>
+        <item>@string/country_code_4</item>
+        <item>@string/country_code_5</item>
+        <item>@string/country_code_6</item>
+        <item>@string/country_code_7</item>
+        <item>@string/country_code_8</item>
+        <item>@string/country_code_9</item>
+        <item>@string/country_code_10</item>
+        <item>@string/country_code_11</item>
+        <item>@string/country_code_12</item>
+        <item>@string/country_code_14</item>
+        <item>@string/country_code_15</item>
+        <item>@string/country_code_16</item>
+        <item>@string/country_code_17</item>
+        <item>@string/country_code_18</item>
+        <item>@string/country_code_19</item>
+        <item>@string/country_code_20</item>
+        <item>@string/country_code_21</item>
+        <item>@string/country_code_22</item>
+        <item>@string/country_code_23</item>
+        <item>@string/country_code_24</item>
+        <item>@string/country_code_25</item>
+        <item>@string/country_code_26</item>
+        <item>@string/country_code_27</item>
+        <item>@string/country_code_28</item>
+        <item>@string/country_code_29</item>
+        <item>@string/country_code_30</item>
+        <item>@string/country_code_31</item>
+        <item>@string/country_code_32</item>
+        <item>@string/country_code_33</item>
+        <item>@string/country_code_34</item>
+        <item>@string/country_code_35</item>
+        <item>@string/country_code_36</item>
+        <item>@string/country_code_37</item>
+        <item>@string/country_code_38</item>
+        <item>@string/country_code_39</item>
+        <item>@string/country_code_40</item>
+        <item>@string/country_code_41</item>
+        <item>@string/country_code_42</item>
+        <item>@string/country_code_43</item>
+        <item>@string/country_code_44</item>
+        <item>@string/country_code_45</item>
+        <item>@string/country_code_46</item>
+        <item>@string/country_code_47</item>
+        <item>@string/country_code_48</item>
+        <item>@string/country_code_49</item>
+        <item>@string/country_code_50</item>
+        <item>@string/country_code_51</item>
+        <item>@string/country_code_52</item>
+        <item>@string/country_code_53</item>
+        <item>@string/country_code_54</item>
+    </string-array>
+
+    <string-array name="country_names">
+        <item>@string/country_name_0</item>
+        <item>@string/country_name_1</item>
+        <item>@string/country_name_2</item>
+        <item>@string/country_name_3</item>
+        <item>@string/country_name_4</item>
+        <item>@string/country_name_5</item>
+        <item>@string/country_name_6</item>
+        <item>@string/country_name_7</item>
+        <item>@string/country_name_8</item>
+        <item>@string/country_name_9</item>
+        <item>@string/country_name_10</item>
+        <item>@string/country_name_11</item>
+        <item>@string/country_name_12</item>
+        <item>@string/country_name_14</item>
+        <item>@string/country_name_15</item>
+        <item>@string/country_name_16</item>
+        <item>@string/country_name_17</item>
+        <item>@string/country_name_18</item>
+        <item>@string/country_name_19</item>
+        <item>@string/country_name_20</item>
+        <item>@string/country_name_21</item>
+        <item>@string/country_name_22</item>
+        <item>@string/country_name_23</item>
+        <item>@string/country_name_24</item>
+        <item>@string/country_name_25</item>
+        <item>@string/country_name_26</item>
+        <item>@string/country_name_27</item>
+        <item>@string/country_name_28</item>
+        <item>@string/country_name_29</item>
+        <item>@string/country_name_30</item>
+        <item>@string/country_name_31</item>
+        <item>@string/country_name_32</item>
+        <item>@string/country_name_33</item>
+        <item>@string/country_name_34</item>
+        <item>@string/country_name_35</item>
+        <item>@string/country_name_36</item>
+        <item>@string/country_name_37</item>
+        <item>@string/country_name_38</item>
+        <item>@string/country_name_39</item>
+        <item>@string/country_name_40</item>
+        <item>@string/country_name_41</item>
+        <item>@string/country_name_42</item>
+        <item>@string/country_name_43</item>
+        <item>@string/country_name_44</item>
+        <item>@string/country_name_45</item>
+        <item>@string/country_name_46</item>
+        <item>@string/country_name_47</item>
+        <item>@string/country_name_48</item>
+        <item>@string/country_name_49</item>
+        <item>@string/country_name_50</item>
+        <item>@string/country_name_51</item>
+        <item>@string/country_name_52</item>
+        <item>@string/country_name_53</item>
+        <item>@string/country_name_54</item>
+    </string-array>
+
+    <string name="country_code_0">ae</string>
+    <string name="country_code_1">ar</string>
+    <string name="country_code_2">at</string>
+    <string name="country_code_3">au</string>
+    <string name="country_code_4">be</string>
+    <string name="country_code_5">bg</string>
+    <string name="country_code_6">br</string>
+    <string name="country_code_7">ca</string>
+    <string name="country_code_8">ch</string>
+    <string name="country_code_9">cn</string>
+    <string name="country_code_10">co</string>
+    <string name="country_code_11">cu</string>
+    <string name="country_code_12">cz</string>
+    <string name="country_code_14">de</string>
+    <string name="country_code_15">eg</string>
+    <string name="country_code_16">fr</string>
+    <string name="country_code_17">gb</string>
+    <string name="country_code_18">gr</string>
+    <string name="country_code_19">hk</string>
+    <string name="country_code_20">hu</string>
+    <string name="country_code_21">id</string>
+    <string name="country_code_22">ie</string>
+    <string name="country_code_23">il</string>
+    <string name="country_code_24">in</string>
+    <string name="country_code_25">it</string>
+    <string name="country_code_26">jp</string>
+    <string name="country_code_27">kr</string>
+    <string name="country_code_28">lt</string>
+    <string name="country_code_29">lv</string>
+    <string name="country_code_30">ma</string>
+    <string name="country_code_31">mx</string>
+    <string name="country_code_32">my</string>
+    <string name="country_code_33">ng</string>
+    <string name="country_code_34">nl</string>
+    <string name="country_code_35">no</string>
+    <string name="country_code_36">nz</string>
+    <string name="country_code_37">ph</string>
+    <string name="country_code_38">pl</string>
+    <string name="country_code_39">pt</string>
+    <string name="country_code_40">ro</string>
+    <string name="country_code_41">rs</string>
+    <string name="country_code_42">ru</string>
+    <string name="country_code_43">sa</string>
+    <string name="country_code_44">se</string>
+    <string name="country_code_45">sg</string>
+    <string name="country_code_46">si</string>
+    <string name="country_code_47">sk</string>
+    <string name="country_code_48">th</string>
+    <string name="country_code_49">tr</string>
+    <string name="country_code_50">tw</string>
+    <string name="country_code_51">ua</string>
+    <string name="country_code_52">us</string>
+    <string name="country_code_53">ve</string>
+    <string name="country_code_54">za</string>
+
+    <string name="country_name_0">United Arab Emirates</string>
+    <string name="country_name_1">Argentina</string>
+    <string name="country_name_2">Austria</string>
+    <string name="country_name_3">Australia</string>
+    <string name="country_name_4">Belgium</string>
+    <string name="country_name_5">Bulgaria</string>
+    <string name="country_name_6">Brazil</string>
+    <string name="country_name_7">Canada</string>
+    <string name="country_name_8">Switzerland</string>
+    <string name="country_name_9">China</string>
+    <string name="country_name_10">Colombia</string>
+    <string name="country_name_11">Cuba</string>
+    <string name="country_name_12">Czech Republic</string>
+    <string name="country_name_14">Germany</string>
+    <string name="country_name_15">Egypt</string>
+    <string name="country_name_16">France</string>
+    <string name="country_name_17">United Kingdom of Great Britain</string>
+    <string name="country_name_18">Greece</string>
+    <string name="country_name_19">Hong Kong</string>
+    <string name="country_name_20">Hungary</string>
+    <string name="country_name_21">Indonesia</string>
+    <string name="country_name_22">Ireland</string>
+    <string name="country_name_23">Israel</string>
+    <string name="country_name_24">India</string>
+    <string name="country_name_25">Italy</string>
+    <string name="country_name_26">Japan</string>
+    <string name="country_name_27">Republic of Korea</string>
+    <string name="country_name_28">Lithuania</string>
+    <string name="country_name_29">Latvia</string>
+    <string name="country_name_30">Morocco</string>
+    <string name="country_name_31">Mexico</string>
+    <string name="country_name_32">Malaysia</string>
+    <string name="country_name_33">Nigeria</string>
+    <string name="country_name_34">Netherlands</string>
+    <string name="country_name_35">Norway</string>
+    <string name="country_name_36">New Zealand</string>
+    <string name="country_name_37">Philippines</string>
+    <string name="country_name_38">Poland</string>
+    <string name="country_name_39">Portugal</string>
+    <string name="country_name_40">Romania</string>
+    <string name="country_name_41">Serbia</string>
+    <string name="country_name_42">Russian Federation</string>
+    <string name="country_name_43">Saudi Arabia</string>
+    <string name="country_name_44">Sweden</string>
+    <string name="country_name_45">Singapore</string>
+    <string name="country_name_46">Slovenia</string>
+    <string name="country_name_47">Slovakia</string>
+    <string name="country_name_48">Thailand</string>
+    <string name="country_name_49">Turkey</string>
+    <string name="country_name_50">Taiwan</string>
+    <string name="country_name_51">Ukraine</string>
+    <string name="country_name_52">United States of America</string>
+    <string name="country_name_53">Venezuela</string>
+    <string name="country_name_54">South Africa</string>
+
+
+    <string-array name="categories">
+        <item>@string/category_0</item>
+        <item>@string/category_1</item>
+        <item>@string/category_2</item>
+        <item>@string/category_3</item>
+        <item>@string/category_4</item>
+        <item>@string/category_5</item>
+        <item>@string/category_6</item>
+
+    </string-array>
+
+    <!-- categories -->
+    <string name="category_0">business</string>
+    <string name="category_1">entertainment</string>
+    <string name="category_2">general</string>
+    <string name="category_3">health</string>
+    <string name="category_4">science</string>
+    <string name="category_5">sports</string>
+    <string name="category_6">technology</string>
+
+</resources>

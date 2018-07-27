@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".features.filter_search.views.FilterSearchActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/clover_green" />
+
+
+    <TextView
+        android:id="@+id/noTagsSelectedTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:text="@string/filter_search_no_tags_selected"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tabLayoutContainer" />
+
+    <LinearLayout
+        android:id="@+id/tabLayoutContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/clover_green"
+        app:layout_constraintTop_toBottomOf="@id/toolbar">
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/filterSearchTabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabBackground="@android:color/transparent"
+            app:tabGravity="fill"
+            app:tabIndicatorColor="@android:color/white"
+            app:tabMode="fixed"
+            app:tabSelectedTextColor="@android:color/white"
+            app:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget"
+            app:tabTextColor="@android:color/white" />
+    </LinearLayout>
+
+
+    <co.lujun.androidtagview.TagContainerLayout
+        android:id="@+id/tagContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:container_background_color="@android:color/transparent"
+        app:container_border_color="@android:color/transparent"
+        app:layout_constraintTop_toBottomOf="@id/tabLayoutContainer"
+        app:tag_cross_color="@android:color/white"
+        app:tag_enable_cross="true" />
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/filterSearchViewPager"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tagContainer"
+        app:layout_goneMarginTop="10dp" />
+</android.support.constraint.ConstraintLayout>

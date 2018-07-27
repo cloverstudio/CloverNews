@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/clover_green</item>
+        <item name="colorPrimaryDark">@color/clover_green</item>
+        <item name="colorAccent">@color/clover_blue</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="android:editTextColor">@android:color/white</item>
+        <item name="android:textColorHint">@android:color/white</item>
+    </style>
+
+
+</resources>
