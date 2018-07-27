@@ -7,7 +7,7 @@ Kotlin
 
 
 ## Arhitecture
-a MVVM variation; module consists of these components:
+MVVM variation; module consists of these components:
 View(activity or fragment) - reacts on user input and updates view
 UseCase - business logic  
 ViewModel - connects view with business logic
